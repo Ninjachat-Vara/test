@@ -38,24 +38,21 @@
      <!-- schedule  widget end -->
        <!-- schedule  widget begin -->
      <!-- schedule  widget begin -->
-<script>
-      setTimeout(function(){ 
-        (function(n, j, c, h, a, t) {
-      d= j.createElement('div');
-      d.id= 'chatbot';
-      t = j.getElementsByTagName('head')[0];
-      a = j.createElement('script');
-      a.async = 1;
-      a.id= 'ninjachat';
-      a.src = c + h;
-      a.onload = function(){
-          n._NC.init('3592042377400237','145','qa')
-    };
-    j.lastChild.append(d);
-    t.appendChild(a);
-    })(window, document, 'https://widgets.500apps.com/qa/ninjachat/', 'ninjachat.js');
-    },2000);
+     <!-- schedule  widget begin -->
+    <script>
+      (async (s,ch,e,du,le) => {
+        du = ch.getElementsByTagName("head")[0];
+        le = ch.createElement("script");
+        le.async = 1;
+        le.src = e;
+        le.onload = async () => {
+          let data = await s.wg.init("schedule","qa", 3444, 10127, "schedulely", { width: "1000px", height: "650px" }, "sendType=iframe");
+        };
+        du.appendChild(le);
+      })(window, document,  "https://pushly.s3.ap-south-1.amazonaws.com/lib/widget.min.js");
     </script>
+     <!-- schedule  widget end -->
+    
 </head>
 
 <body>
